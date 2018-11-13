@@ -3,7 +3,7 @@ package com.java.study.day2;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class MWArrayList<T> {
+public class MWArrayList<T> implements Iterable<T> {
 
 	private Node header;
 
@@ -101,6 +101,7 @@ public class MWArrayList<T> {
 		Node nextNode;
 	}
 
+	@Override
 	public Iterator<T> iterator() {
 		// TODO Auto-generated method stub
 		return new MWIterator(header);
