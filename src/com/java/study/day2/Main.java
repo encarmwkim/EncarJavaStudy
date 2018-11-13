@@ -1,8 +1,8 @@
 package com.java.study.day2;
 
-public class MainClass {
+public class Main {
 	public static void main(String args[]) {
-		MainClass mainClass = new MainClass();
+		Main mainClass = new Main();
 		mainClass.arrayListTest();
 		mainClass.queueTest();
 		mainClass.stackTest();
